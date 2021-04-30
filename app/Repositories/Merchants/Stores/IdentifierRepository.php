@@ -11,7 +11,6 @@ class IdentifierRepository
     public function __construct($id)
     {
         $this->user = $id;
-
     }
 
     public function getStore()

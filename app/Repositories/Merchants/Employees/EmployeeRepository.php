@@ -2,6 +2,7 @@
 
 namespace App\Repositories\Merchants\Employees;
 
+use App\Repositories\Merchants\Stores\IdentifierRepository;
 use App\Repositories\Stores\StoreRepository;
 use Illuminate\Support\Facades\Hash;
 
@@ -11,7 +12,9 @@ class EmployeeRepository
 
     public function __construct($user)
     {
-        $this->store = new StoreRepository($user);
+        $identifier = new IdentifierRepository($user);
+
+        $this->store =  $identifier->getStore();
     }
 
     public function createEmployee($data)

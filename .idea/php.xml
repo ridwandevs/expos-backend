@@ -141,6 +141,21 @@
       <path value="$PROJECT_DIR$/vendor/inertiajs/inertia-laravel" />
       <path value="$PROJECT_DIR$/vendor/tightenco/ziggy" />
       <path value="$PROJECT_DIR$/vendor/laravel/sanctum" />
+      <path value="$PROJECT_DIR$/vendor/livewire/livewire" />
+      <path value="$PROJECT_DIR$/vendor/calebporzio/sushi" />
+      <path value="$PROJECT_DIR$/vendor/thomaswelton/gravatarlib" />
+      <path value="$PROJECT_DIR$/vendor/league/glide-symfony" />
+      <path value="$PROJECT_DIR$/vendor/thomaswelton/laravel-gravatar" />
+      <path value="$PROJECT_DIR$/vendor/league/glide" />
+      <path value="$PROJECT_DIR$/vendor/league/glide-laravel" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/watson/active" />
+      <path value="$PROJECT_DIR$/vendor/filament/filament" />
+      <path value="$PROJECT_DIR$/vendor/danharrin/livewire-rate-limiting" />
+      <path value="$PROJECT_DIR$/vendor/danharrin/date-format-converter" />
+      <path value="$PROJECT_DIR$/vendor/blade-ui-kit/blade-heroicons" />
+      <path value="$PROJECT_DIR$/vendor/blade-ui-kit/blade-icons" />
+      <path value="$PROJECT_DIR$/vendor/andreaselia/laravel-api-to-postman" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.3">

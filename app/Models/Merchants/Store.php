@@ -36,4 +36,9 @@ class Store extends Model
     {
         return $this->hasMany('App\Models\Merchants\Staffs\Staff');
     }
+
+    public function staffRole()
+    {
+        return $this->hasMany('App\Models\Merchants\Staffs\StaffRole');
+    }
 }

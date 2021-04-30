@@ -4,10 +4,11 @@ namespace App\Models\Merchants\Staffs;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Laravel\Passport\HasApiTokens;
 
 class Staff extends Model
 {
-    use HasFactory;
+    use HasApiTokens, HasFactory;
 
     protected $fillable = [
         'store_id',
